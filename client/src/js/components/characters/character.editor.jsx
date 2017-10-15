@@ -1,21 +1,34 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import CharacterType from './character.model';
-import {Button, Card, Form, Header, Icon, Item, Modal} from 'semantic-ui-react';
+import {Button, Card, Form, Header, Icon, Item, Message, Modal} from 'semantic-ui-react';
 import axios from 'axios';
+
+const client = require('client');
 
 export default class CharacterEditor extends React.Component {
 
   constructor(props) {
     super();
     this.state = {
-      character: props.character
+      character: props.character,
+      error: undefined
     };
   }
 
   save = () => {
     const {isUpdate} = this.props;
     const {character} = this.state;
+
+    const validator = new client.com.objectpartners.plummer.kotlin.validation.CharacterValidator(character);
+    try {
+      validator.validate()
+    } catch (error) {
+      this.setState({
+        error: error.message
+      });
+      return;
+    }
 
     let promise;
 
@@ -85,7 +98,7 @@ export default class CharacterEditor extends React.Component {
 
   render() {
     const {isUpdate} = this.props;
-    const {character} = this.state;
+    const {character, error} = this.state;
 
     return (
       <Modal
@@ -109,6 +122,12 @@ export default class CharacterEditor extends React.Component {
                           checked={character.type === 'BAD'}/>
             </Form.Group>
           </Form>
+          {
+            !!error &&
+            <Message warning visible={true}>
+              {error}
+            </Message>
+          }
         </Modal.Content>
         <Modal.Actions>
           <Button secondary basic onClick={this.cancel} inverted>

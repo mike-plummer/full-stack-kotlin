@@ -2,7 +2,7 @@ package com.objectpartners.plummer.kotlin
 
 import com.objectpartners.plummer.kotlin.domain.Character
 import com.objectpartners.plummer.kotlin.domain.House
-import com.objectpartners.plummer.kotlin.validation.isInvalid
+import com.objectpartners.plummer.kotlin.validation.CharacterValidator
 import org.springframework.stereotype.Component
 
 @Component
@@ -33,18 +33,14 @@ open class CharactersService {
     }
 
     fun update(character: Character) {
-        if (isInvalid(character)) {
-            throw IllegalArgumentException()
-        }
+        CharacterValidator(character).validate()
 
         CHARACTERS.removeIf({ c -> c.id == character.id })
         CHARACTERS.add(character)
     }
 
     fun create(character: Character) {
-        if (isInvalid(character)) {
-            throw IllegalArgumentException()
-        }
+        CharacterValidator(character).validate()
 
         CHARACTERS.add(character)
     }
