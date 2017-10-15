@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../../build/node_modules/semantic-ui-css/semantic.min.css';
 
-import Dashboard from './components/Dashboard';
+import CharactersList from './components/characters/characters.list';
 
 // ========================================
 
@@ -12,6 +12,6 @@ body.appendChild(root);
 root.id = 'root';
 
 ReactDOM.render(
-  <Dashboard />,
+  <CharactersList />,
   root
 );
