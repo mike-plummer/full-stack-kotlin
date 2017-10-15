@@ -11,5 +11,6 @@ enum class House {
     STARK,
     TARGARYEN,
     TULLY,
-    TYRELL
+    TYRELL,
+    NONE
 }

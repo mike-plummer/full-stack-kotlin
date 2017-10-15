@@ -1,10 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import CharacterType from './character.model';
+import CharacterType, {HOUSES} from './character.model';
 import {Button, Card, Form, Header, Icon, Item, Message, Modal} from 'semantic-ui-react';
 import axios from 'axios';
 
 const client = require('client');
+
+const houseOptions = HOUSES.map(house => ({
+  text: house,
+  value: house
+}));
 
 export default class CharacterEditor extends React.Component {
 
@@ -51,47 +56,11 @@ export default class CharacterEditor extends React.Component {
     this.props.onComplete();
   };
 
-  onChangeName = event => {
+  onChange = (field, event, data) => {
     this.setState({
       character: {
         ...this.state.character,
-        name: event.target.value
-      }
-    });
-  };
-
-  onChangeDescription = event => {
-    this.setState({
-      character: {
-        ...this.state.character,
-        description: event.target.value
-      }
-    });
-  };
-
-  onChangeEpisode = event => {
-    this.setState({
-      character: {
-        ...this.state.character,
-        episodeId: event.target.value
-      }
-    });
-  };
-
-  onChangeId = event => {
-    this.setState({
-      character: {
-        ...this.state.character,
-        id: event.target.value
-      }
-    });
-  };
-
-  onChangeType = event => {
-    this.setState({
-      character: {
-        ...this.state.character,
-        type: event.currentTarget.firstChild.value
+        [field]: data.value
       }
     });
   };
@@ -110,16 +79,25 @@ export default class CharacterEditor extends React.Component {
         <Header content='Character Editor'/>
         <Modal.Content>
           <Form>
-            <Form.Input onChange={this.onChangeName} label='Name' value={character.name}/>
-            <Form.Input onChange={this.onChangeDescription} label='Description' value={character.description}/>
-            <Form.Input onChange={this.onChangeEpisode} label='Episode #' type='number' value={character.episodeId}/>
-            <Form.Input onChange={this.onChangeId} label='ID' type='number' value={character.id}/>
+            <Form.Input onChange={this.onChange.bind(this, 'name')} label='Name' value={character.name}/>
+            <Form.Input onChange={this.onChange.bind(this, 'description')} label='Description'
+                        value={character.description}/>
+            <Form.Group inline>
+              <Form.Input onChange={this.onChange.bind(this, 'episodeId')} label='Episode #' type='number'
+                          value={character.episodeId}/>
+              <Form.Input onChange={this.onChange.bind(this, 'id')} label='ID' type='number' value={character.id}/>
+              <Form.Select onChange={this.onChange.bind(this, 'house')} label='House' value={character.house}
+                           options={houseOptions}/>
+            </Form.Group>
             <Form.Group>
-              <label>Good or Bad</label>
-              <Form.Radio name='type' value='GOOD' label='Good' onChange={this.onChangeType}
-                          checked={character.type === 'GOOD'}/>
-              <Form.Radio name='type' value='BAD' label='Bad' onChange={this.onChangeType}
-                          checked={character.type === 'BAD'}/>
+              <Form.Input onChange={this.onChange.bind(this, 'importance')} label='Importance' type='number'
+                          value={character.importance}/>
+              <Form.Group grouped>
+                <Form.Radio name='type' value='GOOD' label='Good' onChange={this.onChange.bind(this, 'type')}
+                            checked={character.type === 'GOOD'}/>
+                <Form.Radio name='type' value='BAD' label='Bad' onChange={this.onChange.bind(this, 'type')}
+                            checked={character.type === 'BAD'}/>
+              </Form.Group>
             </Form.Group>
           </Form>
           {

@@ -20,9 +20,9 @@ open class CharactersService {
                 ) }
                 .toMutableList()
 
-        private fun toHouse(house: String?): House? {
+        private fun toHouse(house: String?): House {
             if (house === null) {
-                return null
+                return House.NONE
             }
             return House.valueOf(house.toUpperCase())
         }

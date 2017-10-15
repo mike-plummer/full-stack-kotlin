@@ -4,7 +4,7 @@ data class Character(
         val id: Int,
         val name: String,
         val description: String,
-        val house: House?,
+        val house: House,
         val importance: Int,
         val type: GoodOrBad?,
         val episodeId: Int

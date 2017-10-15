@@ -3,20 +3,14 @@ import PropTypes from 'prop-types';
 import CharacterType from './character.model';
 import {Button, Card, Header, Icon, Item} from 'semantic-ui-react';
 
-const sigils = {
-  ARRYN: require('../../assets/arryn.png'),
-  BARATHEON: require('../../assets/baratheon.png'),
-  BOLTON: require('../../assets/bolton.png'),
-  FREY: require('../../assets/frey.png'),
-  GREYJOY: require('../../assets/greyjoy.png'),
-  LANNISTER: require('../../assets/lannister.png'),
-  MARTELL: require('../../assets/martell.png'),
-  STARK: require('../../assets/stark.png'),
-  TARGARYEN: require('../../assets/targaryen.png'),
-  TULLY: require('../../assets/tully.png'),
-  TYRELL: require('../../assets/tyrell.png'),
-  NONE: require('../../assets/kotlin.png')
-};
+const client = require('client');
+
+const sigils = client.com.objectpartners.plummer.kotlin.domain.House.values()
+  .map(item => item.name || item)
+  .reduce((prev, item) => {
+    prev[item] = require(`../../assets/${item.toLowerCase()}.png`);
+    return prev;
+  }, {});
 
 export default class Character extends React.Component {
 
