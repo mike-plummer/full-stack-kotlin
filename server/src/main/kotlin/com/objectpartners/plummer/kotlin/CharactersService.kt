@@ -2,12 +2,13 @@ package com.objectpartners.plummer.kotlin
 
 import com.objectpartners.plummer.kotlin.domain.Character
 import com.objectpartners.plummer.kotlin.domain.House
+import com.objectpartners.plummer.kotlin.validation.isInvalid
 import org.springframework.stereotype.Component
 
 @Component
 open class CharactersService {
     companion object {
-        val CHARACTERS: List<Character> = parseCsv("/data.csv")
+        val CHARACTERS: MutableList<Character> = parseCsv("/data.csv")
                 .map { values -> Character(
                         values[0].toInt(),
                         values[1],
@@ -17,6 +18,7 @@ open class CharactersService {
                         null,
                         values[5].toInt()
                 ) }
+                .toMutableList()
 
         private fun toHouse(house: String?): House? {
             if (house === null) {
@@ -27,6 +29,23 @@ open class CharactersService {
     }
 
     fun getAll(): List<Character> {
-        return CHARACTERS
+        return CHARACTERS.sortedBy { character -> character.episodeId }
+    }
+
+    fun update(character: Character) {
+        if (isInvalid(character)) {
+            throw IllegalArgumentException()
+        }
+
+        CHARACTERS.removeIf({ c -> c.id == character.id })
+        CHARACTERS.add(character)
+    }
+
+    fun create(character: Character) {
+        if (isInvalid(character)) {
+            throw IllegalArgumentException()
+        }
+
+        CHARACTERS.add(character)
     }
 }
