@@ -1,0 +1,16 @@
+apply plugin: 'kotlin-platform-jvm'
+
+dependencies {
+    implement project(':common')
+
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+    testCompile "org.jetbrains.kotlin:kotlin-test:$kotlinVersion"
+
+    compile "org.springframework.boot:spring-boot-starter-parent:$springbootVersion"
+    compile "org.springframework.boot:spring-boot-starter-web:$springbootVersion"
+
+    compile "org.apache.commons:commons-csv:$commonsCsvVersion"
+
+    compile "io.springfox:springfox-swagger2:$springfoxVersion"
+    compile "io.springfox:springfox-swagger-ui:$springfoxVersion"
+}
