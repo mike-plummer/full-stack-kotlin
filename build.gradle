@@ -1,0 +1,20 @@
+allprojects {
+    group 'com.objectpartners.plummer.intro-to-kotlin'
+    version '1.0.0-SNAPSHOT'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+        maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+        classpath "org.jetbrains.kotlin:kotlin-frontend-plugin:0.0.21"
+    }
+}

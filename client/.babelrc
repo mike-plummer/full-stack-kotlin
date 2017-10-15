@@ -1,0 +1,10 @@
+{
+  "presets": [
+    [ "./build/node_modules/babel-preset-env", { "modules": false } ],
+    "./build/node_modules/babel-preset-stage-1",
+    "./build/node_modules/babel-preset-react"
+  ],
+  "plugins": [
+    "./build/node_modules/babel-plugin-transform-react-jsx"
+  ]
+}
