@@ -1,5 +1,5 @@
 apply plugin: 'kotlin-platform-jvm'
-apply plugin: 'spring-boot'
+apply plugin: 'org.springframework.boot'
 
 dependencies {
     implement project(':common')

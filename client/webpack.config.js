@@ -7,7 +7,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   resolve: {
-    modules: [ path.resolve('js'), path.resolve('..', 'src'), path.resolve('.'), path.resolve('node_modules') ],
+    modules: [path.resolve('js'), path.resolve('..', 'src'), path.resolve('.'), path.resolve('node_modules'), path.resolve('node_modules/semantic-ui-css')],
     extensions: ['.jsx', '.js', '.css']
   },
   devtool: 'inline-source-map',
@@ -24,6 +24,24 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.css$/,
+        use: [
+          {loader: 'style-loader'},
+          {loader: 'css-loader'}
+        ]
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        use: [
+          'url-loader?limit=10000',
+          'img-loader'
+        ]
+      },
+      {
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        loader: 'file-loader?name=public/fonts/[name].[ext]'
       }
     ]
   },

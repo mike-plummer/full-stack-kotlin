@@ -13,3 +13,8 @@ Work in progress, not ready for use
 
 - `ctrl-c`
 - `./gradlew stop`
+
+
+# Credit
+Data came from http://www.deathtimeline.com
+House sigil images: https://i.imgur.com/ANEaVMz.jpg?1

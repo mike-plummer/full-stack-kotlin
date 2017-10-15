@@ -11,6 +11,6 @@ fun parseCsv(filename: String): List<List<String>> {
     return CSVParser.parse(
             Resources.javaClass.getResource(filename),
             StandardCharsets.UTF_8,
-            CSVFormat.DEFAULT
+            CSVFormat.DEFAULT.withFirstRecordAsHeader().withNullString("")
     ).records.map { record -> record.toList() }
 }

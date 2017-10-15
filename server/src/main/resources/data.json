@@ -1,0 +1,1570 @@
+[
+  {
+    "id": 1,
+    "name": "Waymar Royce",
+    "killedBy": "Killed by White Walker",
+    "house": null,
+    "importance": 1,
+    "episode_id": 1
+  },
+  {
+    "id": 2,
+    "name": "Gared",
+    "killedBy": "Killed by White Walker",
+    "house": null,
+    "importance": 1,
+    "episode_id": 1
+  },
+  {
+    "id": 3,
+    "name": "Will",
+    "killedBy": "Executed by Ned Stark",
+    "house": null,
+    "importance": 1,
+    "episode_id": 1
+  },
+  {
+    "id": 4,
+    "name": "Jon Arryn",
+    "killedBy": "Poisoned by Lysa",
+    "house": "Arryn",
+    "importance": 1,
+    "episode_id": 1
+  },
+  {
+    "id": 5,
+    "name": "Assassin",
+    "killedBy": "Killed by Bran's Wolf",
+    "house": null,
+    "importance": 1,
+    "episode_id": 2
+  },
+  {
+    "id": 6,
+    "name": "Mycah",
+    "killedBy": "Killed by the Hound",
+    "house": null,
+    "importance": 1,
+    "episode_id": 2
+  },
+  {
+    "id": 7,
+    "name": "Ser Hugh",
+    "killedBy": "Killed by the Mountain",
+    "house": null,
+    "importance": 1,
+    "episode_id": 4
+  },
+  {
+    "id": 8,
+    "name": "Kurleket",
+    "killedBy": "Killed by hill tribesmen",
+    "house": null,
+    "importance": 1,
+    "episode_id": 5
+  },
+  {
+    "id": 9,
+    "name": "Willis Wode",
+    "killedBy": "Killed by hill tribesmen",
+    "house": null,
+    "importance": 1,
+    "episode_id": 5
+  },
+  {
+    "id": 10,
+    "name": "Wyl",
+    "killedBy": "Killed by Lannister guardsmen",
+    "house": null,
+    "importance": 1,
+    "episode_id": 5
+  },
+  {
+    "id": 11,
+    "name": "Heward",
+    "killedBy": "Killed by Lannister guardsmen",
+    "house": null,
+    "importance": 1,
+    "episode_id": 5
+  },
+  {
+    "id": 12,
+    "name": "Jory Cassel",
+    "killedBy": "Killed by Jamie Lannister",
+    "house": null,
+    "importance": 2,
+    "episode_id": 5
+  },
+  {
+    "id": 13,
+    "name": "Wallen",
+    "killedBy": "Killed by Rob Stark",
+    "house": null,
+    "importance": 1,
+    "episode_id": 6
+  },
+  {
+    "id": 14,
+    "name": "Stiv",
+    "killedBy": "Kill by Theon Greyjoy",
+    "house": null,
+    "importance": 1,
+    "episode_id": 6
+  },
+  {
+    "id": 15,
+    "name": "Vardis Egen",
+    "killedBy": "Killed by Bronn",
+    "house": null,
+    "importance": 1,
+    "episode_id": 6
+  },
+  {
+    "id": 16,
+    "name": "Viserys Targaryen ",
+    "killedBy": "Killed by Khal Drogo",
+    "house": "Targaryen",
+    "importance": 3,
+    "episode_id": 6
+  },
+  {
+    "id": 17,
+    "name": "Wine seller",
+    "killedBy": "Dragged behind a Horse",
+    "house": null,
+    "importance": 1,
+    "episode_id": 7
+  },
+  {
+    "id": 18,
+    "name": "Robert Baratheon",
+    "killedBy": "Killed by a boar",
+    "house": "Baratheon",
+    "importance": 3,
+    "episode_id": 7
+  },
+  {
+    "id": 19,
+    "name": "Vayon Poole",
+    "killedBy": "Killed by House Lannister men",
+    "house": null,
+    "importance": 1,
+    "episode_id": 8
+  },
+  {
+    "id": 20,
+    "name": "Mordane",
+    "killedBy": "Killed by House Lannister men",
+    "house": null,
+    "importance": 1,
+    "episode_id": 8
+  },
+  {
+    "id": 21,
+    "name": "Syrio Forel",
+    "killedBy": "Killed by House Lannister men",
+    "house": null,
+    "importance": 1,
+    "episode_id": 8
+  },
+  {
+    "id": 22,
+    "name": "Stableboy",
+    "killedBy": "Killed by Arya",
+    "house": null,
+    "importance": 1,
+    "episode_id": 8
+  },
+  {
+    "id": 23,
+    "name": "Mago",
+    "killedBy": "Killed by Khal Drogo",
+    "house": null,
+    "importance": 1,
+    "episode_id": 8
+  },
+  {
+    "id": 24,
+    "name": "Othor",
+    "killedBy": "Burned by Jon Snow",
+    "house": null,
+    "importance": 1,
+    "episode_id": 8
+  },
+  {
+    "id": 25,
+    "name": "Qotho",
+    "killedBy": "Killed by Jorah Mormont",
+    "house": null,
+    "importance": 2,
+    "episode_id": 9
+  },
+  {
+    "id": 26,
+    "name": "Eddard Stark",
+    "killedBy": "Executed by Ilyn Payne",
+    "house": "Stark",
+    "importance": 3,
+    "episode_id": 9
+  },
+  {
+    "id": 27,
+    "name": "Khal Drogo",
+    "killedBy": "Smothered by Daenerys",
+    "house": null,
+    "importance": 3,
+    "episode_id": 10
+  },
+  {
+    "id": 28,
+    "name": "Mirri Maz Duur",
+    "killedBy": "Burned alive by by Daenerys",
+    "house": null,
+    "importance": 1,
+    "episode_id": 10
+  },
+  {
+    "id": 29,
+    "name": "Maester Cressen",
+    "killedBy": "Suicide by poison",
+    "house": null,
+    "importance": 1,
+    "episode_id": 11
+  },
+  {
+    "id": 30,
+    "name": "Barra",
+    "killedBy": "killed by Janos Slynt",
+    "house": null,
+    "importance": 1,
+    "episode_id": 11
+  },
+  {
+    "id": 31,
+    "name": "Rakharo",
+    "killedBy": "Killed by Dothrakis",
+    "house": null,
+    "importance": 2,
+    "episode_id": 12
+  },
+  {
+    "id": 32,
+    "name": "Yoren",
+    "killedBy": "killed by Amory Lorch",
+    "house": null,
+    "importance": 2,
+    "episode_id": 13
+  },
+  {
+    "id": 33,
+    "name": "Lommy",
+    "killedBy": "Killed by Polliver",
+    "house": null,
+    "importance": 2,
+    "episode_id": 13
+  },
+  {
+    "id": 34,
+    "name": "Rennick",
+    "killedBy": "killed by Robb Stark's wolf",
+    "house": null,
+    "importance": 1,
+    "episode_id": 14
+  },
+  {
+    "id": 35,
+    "name": "Lannister guardsmen",
+    "killedBy": "killed by Robb Stark's wolf",
+    "house": null,
+    "importance": 1,
+    "episode_id": 14
+  },
+  {
+    "id": 36,
+    "name": "Tortured Prisoner",
+    "killedBy": "Tortured to death ",
+    "house": null,
+    "importance": 1,
+    "episode_id": 14
+  },
+  {
+    "id": 37,
+    "name": "Renly Baratheon",
+    "killedBy": "Killed by shadow creature",
+    "house": "Baratheon",
+    "importance": 3,
+    "episode_id": 15
+  },
+  {
+    "id": 38,
+    "name": "Emmon Cuy",
+    "killedBy": "killed by Brienne of Tarth",
+    "house": null,
+    "importance": 1,
+    "episode_id": 15
+  },
+  {
+    "id": 39,
+    "name": "Robar Royce",
+    "killedBy": "killed by Brienne of Tarth",
+    "house": null,
+    "importance": 1,
+    "episode_id": 15
+  },
+  {
+    "id": 40,
+    "name": "The Tickler",
+    "killedBy": "Killed by Jaqen H'ghar",
+    "house": null,
+    "importance": 1,
+    "episode_id": 15
+  },
+  {
+    "id": 41,
+    "name": "Rodrik Cassel",
+    "killedBy": "Killed by Theon Greyjoy ",
+    "house": null,
+    "importance": 2,
+    "episode_id": 16
+  },
+  {
+    "id": 42,
+    "name": "The High Septon",
+    "killedBy": "Killed by rioters",
+    "house": null,
+    "importance": 1,
+    "episode_id": 16
+  },
+  {
+    "id": 43,
+    "name": "Armory Lorch",
+    "killedBy": "Killed by Jagen H'ghar",
+    "house": null,
+    "importance": 1,
+    "episode_id": 16
+  },
+  {
+    "id": 44,
+    "name": "Drennan ",
+    "killedBy": "Killed by Osha",
+    "house": null,
+    "importance": 1,
+    "episode_id": 16
+  },
+  {
+    "id": 45,
+    "name": "Irri",
+    "killedBy": "Killed by Xaro Xhoan Daxos",
+    "house": null,
+    "importance": 2,
+    "episode_id": 16
+  },
+  {
+    "id": 46,
+    "name": "Alton Lannister",
+    "killedBy": "Killed by Jamie Lannister",
+    "house": "Lannister",
+    "importance": 1,
+    "episode_id": 17
+  },
+  {
+    "id": 47,
+    "name": "Torrhen Karstark",
+    "killedBy": "Killed by Jamie Lannister",
+    "house": null,
+    "importance": 1,
+    "episode_id": 17
+  },
+  {
+    "id": 48,
+    "name": "Eleven of the Thirteen",
+    "killedBy": "Killed by Pyat Pree",
+    "house": null,
+    "importance": 1,
+    "episode_id": 17
+  },
+  {
+    "id": 49,
+    "name": "Billy",
+    "killedBy": "Killed by Theon Greyjoy",
+    "house": null,
+    "importance": 1,
+    "episode_id": 17
+  },
+  {
+    "id": 50,
+    "name": "Jack",
+    "killedBy": "Killed by Theon Greyjoy",
+    "house": null,
+    "importance": 1,
+    "episode_id": 17
+  },
+  {
+    "id": 51,
+    "name": "Stonesnake",
+    "killedBy": "killed by wildlings",
+    "house": null,
+    "importance": 1,
+    "episode_id": 18
+  },
+  {
+    "id": 52,
+    "name": "Harker",
+    "killedBy": "killed by wildlings",
+    "house": null,
+    "importance": 1,
+    "episode_id": 18
+  },
+  {
+    "id": 53,
+    "name": "Borba ",
+    "killedBy": "killed by wildlings",
+    "house": null,
+    "importance": 1,
+    "episode_id": 18
+  },
+  {
+    "id": 54,
+    "name": "Matthos Seaworth",
+    "killedBy": "killed by Wildfire explosion",
+    "house": null,
+    "importance": 2,
+    "episode_id": 19
+  },
+  {
+    "id": 55,
+    "name": "Mandon Moore",
+    "killedBy": "killed by Podrik",
+    "house": null,
+    "importance": 1,
+    "episode_id": 19
+  },
+  {
+    "id": 56,
+    "name": "Tom",
+    "killedBy": "killed by Brienne of Tarth",
+    "house": null,
+    "importance": 1,
+    "episode_id": 20
+  },
+  {
+    "id": 57,
+    "name": "Maester Luwin",
+    "killedBy": "Killed by Dagmer",
+    "house": null,
+    "importance": 2,
+    "episode_id": 20
+  },
+  {
+    "id": 58,
+    "name": "Pyat Pree",
+    "killedBy": "Killed by Daenerys' dragons",
+    "house": null,
+    "importance": 2,
+    "episode_id": 20
+  },
+  {
+    "id": 59,
+    "name": "Qhorin",
+    "killedBy": "Killed by Jon Snow",
+    "house": null,
+    "importance": 2,
+    "episode_id": 20
+  },
+  {
+    "id": 60,
+    "name": "Doreah",
+    "killedBy": "Locked in Xaro Xhoan Daxos' vault",
+    "house": null,
+    "importance": 2,
+    "episode_id": 20
+  },
+  {
+    "id": 61,
+    "name": "Xaro Xhoan Daxos",
+    "killedBy": "Locked in his vault",
+    "house": null,
+    "importance": 2,
+    "episode_id": 20
+  },
+  {
+    "id": 62,
+    "name": "Hoster Tully",
+    "killedBy": "Old age",
+    "house": "Tully",
+    "importance": 1,
+    "episode_id": 22
+  },
+  {
+    "id": 63,
+    "name": "Master Torturer",
+    "killedBy": "Killed by Ramsay Snow",
+    "house": null,
+    "importance": 1,
+    "episode_id": 23
+  },
+  {
+    "id": 64,
+    "name": "Bannen",
+    "killedBy": "Died of a broken foot and being starved",
+    "house": null,
+    "importance": 1,
+    "episode_id": 24
+  },
+  {
+    "id": 65,
+    "name": "Caster",
+    "killedBy": "killed by Karl Tanner",
+    "house": null,
+    "importance": 2,
+    "episode_id": 24
+  },
+  {
+    "id": 66,
+    "name": "Jeor Mormont",
+    "killedBy": "killed by Rast",
+    "house": null,
+    "importance": 2,
+    "episode_id": 24
+  },
+  {
+    "id": 67,
+    "name": "Kraznys mo Nakloz",
+    "killedBy": "Killed by dragon",
+    "house": null,
+    "importance": 1,
+    "episode_id": 24
+  },
+  {
+    "id": 68,
+    "name": "Willen Lannister",
+    "killedBy": "killed by Richard Karstark",
+    "house": "Lannister",
+    "importance": 1,
+    "episode_id": 25
+  },
+  {
+    "id": 69,
+    "name": "Martyn Lannister",
+    "killedBy": "killed by Richard Karstark",
+    "house": "Lannister",
+    "importance": 1,
+    "episode_id": 25
+  },
+  {
+    "id": 70,
+    "name": "Richard Karstark",
+    "killedBy": "Executed by Robb Stark",
+    "house": null,
+    "importance": 2,
+    "episode_id": 25
+  },
+  {
+    "id": 71,
+    "name": "Ros",
+    "killedBy": "killed by Joffrey",
+    "house": null,
+    "importance": 2,
+    "episode_id": 26
+  },
+  {
+    "id": 72,
+    "name": "Mero",
+    "killedBy": "Killed by Daario Naharis",
+    "house": null,
+    "importance": 1,
+    "episode_id": 28
+  },
+  {
+    "id": 73,
+    "name": "Prendahl na Ghezn",
+    "killedBy": "Killed by Daario Naharis",
+    "house": null,
+    "importance": 1,
+    "episode_id": 28
+  },
+  {
+    "id": 74,
+    "name": "White Walker",
+    "killedBy": "White Walker",
+    "house": null,
+    "importance": 1,
+    "episode_id": 28
+  },
+  {
+    "id": 75,
+    "name": "Old Man",
+    "killedBy": "Killed by Ygritte",
+    "house": null,
+    "importance": 1,
+    "episode_id": 29
+  },
+  {
+    "id": 76,
+    "name": "Orell",
+    "killedBy": "Killed by Jon Snow",
+    "house": null,
+    "importance": 2,
+    "episode_id": 29
+  },
+  {
+    "id": 77,
+    "name": "Talisa Stark",
+    "killedBy": "killed by Lorthar Frey",
+    "house": "Stark",
+    "importance": 3,
+    "episode_id": 29
+  },
+  {
+    "id": 78,
+    "name": "Robb Stark",
+    "killedBy": "Killed by Roose Bolton",
+    "house": "Stark",
+    "importance": 3,
+    "episode_id": 29
+  },
+  {
+    "id": 79,
+    "name": "Joyeuse Erenford",
+    "killedBy": "killed by Catelyn Stark",
+    "house": null,
+    "importance": 1,
+    "episode_id": 29
+  },
+  {
+    "id": 80,
+    "name": "Catelyn Stark",
+    "killedBy": "Killed by Walder Rivers",
+    "house": "Stark",
+    "importance": 3,
+    "episode_id": 29
+  },
+  {
+    "id": 81,
+    "name": "Frey Soldier",
+    "killedBy": "Killed by Arya Stark",
+    "house": null,
+    "importance": 1,
+    "episode_id": 30
+  },
+  {
+    "id": 82,
+    "name": "lowell",
+    "killedBy": "Killed by the Hound",
+    "house": null,
+    "importance": 1,
+    "episode_id": 31
+  },
+  {
+    "id": 83,
+    "name": "Polliver",
+    "killedBy": "Killed by Arya Stark",
+    "house": null,
+    "importance": 1,
+    "episode_id": 31
+  },
+  {
+    "id": 84,
+    "name": "Tansy",
+    "killedBy": "Killed by Ramsey's Dogs",
+    "house": null,
+    "importance": 1,
+    "episode_id": 32
+  },
+  {
+    "id": 85,
+    "name": "Axell Florent",
+    "killedBy": "Burned alive by Melisandre",
+    "house": null,
+    "importance": 1,
+    "episode_id": 32
+  },
+  {
+    "id": 86,
+    "name": "Joffrey Baratheon",
+    "killedBy": "Poisoned by Olenna Tyrell",
+    "house": "Baratheon",
+    "importance": 3,
+    "episode_id": 32
+  },
+  {
+    "id": 87,
+    "name": "Dontos Hollar",
+    "killedBy": "killed by Petyr Baelish's men",
+    "house": null,
+    "importance": 2,
+    "episode_id": 33
+  },
+  {
+    "id": 88,
+    "name": "Guymon",
+    "killedBy": "Killed by Ygritte",
+    "house": null,
+    "importance": 1,
+    "episode_id": 33
+  },
+  {
+    "id": 89,
+    "name": "Olly's Mother",
+    "killedBy": "Killed by Styr",
+    "house": null,
+    "importance": 1,
+    "episode_id": 33
+  },
+  {
+    "id": 90,
+    "name": "Oznak zo Pahl",
+    "killedBy": "Killed by Daario Naharis",
+    "house": null,
+    "importance": 1,
+    "episode_id": 33
+  },
+  {
+    "id": 91,
+    "name": "Great Master",
+    "killedBy": "killed slaves in uprising",
+    "house": null,
+    "importance": 1,
+    "episode_id": 34
+  },
+  {
+    "id": 92,
+    "name": "Locke",
+    "killedBy": " Killed Bran Stark while warging into Hodor",
+    "house": null,
+    "importance": 2,
+    "episode_id": 35
+  },
+  {
+    "id": 93,
+    "name": "Karl Tanner",
+    "killedBy": "Killed by Jon Snow",
+    "house": null,
+    "importance": 2,
+    "episode_id": 35
+  },
+  {
+    "id": 94,
+    "name": "Rast",
+    "killedBy": "Killed by Jon Snow's wolf",
+    "house": null,
+    "importance": 2,
+    "episode_id": 35
+  },
+  {
+    "id": 95,
+    "name": "Dying Man",
+    "killedBy": "Mercy killed by the Hound",
+    "house": null,
+    "importance": 1,
+    "episode_id": 37
+  },
+  {
+    "id": 96,
+    "name": "Biter",
+    "killedBy": "Killed by the Hound",
+    "house": null,
+    "importance": 1,
+    "episode_id": 37
+  },
+  {
+    "id": 97,
+    "name": "Rorge",
+    "killedBy": "Killed by Arya Stark",
+    "house": null,
+    "importance": 1,
+    "episode_id": 37
+  },
+  {
+    "id": 98,
+    "name": "Lysa Arryn",
+    "killedBy": "Pushed through the moon door by Littlefinger",
+    "house": "Arryn",
+    "importance": 2,
+    "episode_id": 37
+  },
+  {
+    "id": 99,
+    "name": "Mole's Town whore",
+    "killedBy": "Killed by Ygritte",
+    "house": null,
+    "importance": 1,
+    "episode_id": 38
+  },
+  {
+    "id": 100,
+    "name": "Ralf Kenning",
+    "killedBy": "killed by Adrack Humble",
+    "house": null,
+    "importance": 1,
+    "episode_id": 38
+  },
+  {
+    "id": 101,
+    "name": "Adrack Humble",
+    "killedBy": "Killed by Ramsay Snow's men",
+    "house": null,
+    "importance": 1,
+    "episode_id": 38
+  },
+  {
+    "id": 102,
+    "name": "Oberyn Martell",
+    "killedBy": "Killed by the Mountain",
+    "house": "Martell",
+    "importance": 3,
+    "episode_id": 38
+  },
+  {
+    "id": 103,
+    "name": "Pypar",
+    "killedBy": "Killed by Ygritte",
+    "house": null,
+    "importance": 2,
+    "episode_id": 39
+  },
+  {
+    "id": 104,
+    "name": "Thenn warg",
+    "killedBy": "Killed by Samwell Tarly",
+    "house": null,
+    "importance": 2,
+    "episode_id": 39
+  },
+  {
+    "id": 105,
+    "name": "Dongo",
+    "killedBy": "killed by Black Brothers",
+    "house": null,
+    "importance": 1,
+    "episode_id": 39
+  },
+  {
+    "id": 106,
+    "name": "Smitty",
+    "killedBy": "Fell of the wall",
+    "house": null,
+    "importance": 1,
+    "episode_id": 39
+  },
+  {
+    "id": 107,
+    "name": "Styr",
+    "killedBy": "Killed by Jon Snow",
+    "house": null,
+    "importance": 2,
+    "episode_id": 39
+  },
+  {
+    "id": 108,
+    "name": "Ygritte",
+    "killedBy": "Killed by Olly",
+    "house": null,
+    "importance": 3,
+    "episode_id": 39
+  },
+  {
+    "id": 109,
+    "name": "Mag Mar Tun Doh Weg",
+    "killedBy": "killed by Grenn and 5 other black brothers",
+    "house": null,
+    "importance": 1,
+    "episode_id": 39
+  },
+  {
+    "id": 110,
+    "name": "Grenn",
+    "killedBy": "Killed by Mag Mar Tun Doh Weg",
+    "house": null,
+    "importance": 2,
+    "episode_id": 39
+  },
+  {
+    "id": 111,
+    "name": "Cooper",
+    "killedBy": "Killed by Mag Mar Tun Doh Weg",
+    "house": null,
+    "importance": 1,
+    "episode_id": 39
+  },
+  {
+    "id": 112,
+    "name": "Done Hill",
+    "killedBy": "Killed by Mag Mar Tun Doh Weg",
+    "house": null,
+    "importance": 1,
+    "episode_id": 39
+  },
+  {
+    "id": 113,
+    "name": "Zalla",
+    "killedBy": "killed by Dragon",
+    "house": null,
+    "importance": 1,
+    "episode_id": 40
+  },
+  {
+    "id": 114,
+    "name": "Jojen Reed",
+    "killedBy": "Killed by wight",
+    "house": null,
+    "importance": 2,
+    "episode_id": 40
+  },
+  {
+    "id": 115,
+    "name": "Shae",
+    "killedBy": "Killed by Tyrion Lannister",
+    "house": null,
+    "importance": 3,
+    "episode_id": 40
+  },
+  {
+    "id": 116,
+    "name": "Tywin Lannister",
+    "killedBy": "killed by Tyrion Lannister",
+    "house": "Lannister",
+    "importance": 3,
+    "episode_id": 40
+  },
+  {
+    "id": 117,
+    "name": "White Rat",
+    "killedBy": "Killed by a member of the Sons of the Harpy",
+    "house": null,
+    "importance": 1,
+    "episode_id": 41
+  },
+  {
+    "id": 118,
+    "name": "Mance Rayder",
+    "killedBy": "Mercy killed by Jon Snow",
+    "house": null,
+    "importance": 2,
+    "episode_id": 41
+  },
+  {
+    "id": 119,
+    "name": "Son of Harpy",
+    "killedBy": "Killed by Mossador",
+    "house": null,
+    "importance": 1,
+    "episode_id": 42
+  },
+  {
+    "id": 120,
+    "name": "Mossador",
+    "killedBy": "Executed by Daario Naharis",
+    "house": null,
+    "importance": 2,
+    "episode_id": 42
+  },
+  {
+    "id": 121,
+    "name": "Janos Slynt",
+    "killedBy": "Executed by Jon Snow",
+    "house": null,
+    "importance": 2,
+    "episode_id": 43
+  },
+  {
+    "id": 122,
+    "name": "Lead Dornish guard",
+    "killedBy": "Killed by Bronn",
+    "house": null,
+    "importance": 1,
+    "episode_id": 44
+  },
+  {
+    "id": 123,
+    "name": "Merchant captain",
+    "killedBy": "Killed by Obara Sand",
+    "house": null,
+    "importance": 1,
+    "episode_id": 44
+  },
+  {
+    "id": 124,
+    "name": "Ser Barristan Selmy",
+    "killedBy": "Killed by Sons of Harpy",
+    "house": null,
+    "importance": 2,
+    "episode_id": 44
+  },
+  {
+    "id": 125,
+    "name": "Great Master",
+    "killedBy": "Killed by dragon",
+    "house": null,
+    "importance": 1,
+    "episode_id": 45
+  },
+  {
+    "id": 126,
+    "name": "Ghita",
+    "killedBy": "Posioned with water from House of Black and White by Arya ",
+    "house": null,
+    "importance": 1,
+    "episode_id": 46
+  },
+  {
+    "id": 127,
+    "name": "Master Aemon",
+    "killedBy": "Died of natural causes",
+    "house": "Targaryen",
+    "importance": 2,
+    "episode_id": 47
+  },
+  {
+    "id": 128,
+    "name": "Old Woman",
+    "killedBy": "Killed by Ramsay Bolton",
+    "house": null,
+    "importance": 1,
+    "episode_id": 47
+  },
+  {
+    "id": 129,
+    "name": "Lord of Bones",
+    "killedBy": "killed by Tormund",
+    "house": null,
+    "importance": 2,
+    "episode_id": 48
+  },
+  {
+    "id": 130,
+    "name": "Loboda",
+    "killedBy": "Killed by White Walker",
+    "house": null,
+    "importance": 1,
+    "episode_id": 48
+  },
+  {
+    "id": 131,
+    "name": "White Walker",
+    "killedBy": "killed by Jon Snow",
+    "house": null,
+    "importance": 1,
+    "episode_id": 48
+  },
+  {
+    "id": 132,
+    "name": "Karsi",
+    "killedBy": "Killed by a pack of child-wights",
+    "house": null,
+    "importance": 1,
+    "episode_id": 48
+  },
+  {
+    "id": 133,
+    "name": "Shrine Baratheon",
+    "killedBy": "Burned alive as a sacrifice by Melisandre",
+    "house": "Baratheon",
+    "importance": 2,
+    "episode_id": 49
+  },
+  {
+    "id": 134,
+    "name": "Hizdahr zo Loraq",
+    "killedBy": "Killed by son of Harpy",
+    "house": null,
+    "importance": 2,
+    "episode_id": 49
+  },
+  {
+    "id": 135,
+    "name": "Selyse Baratheon",
+    "killedBy": "Suicide by hanging",
+    "house": "Baratheon",
+    "importance": 2,
+    "episode_id": 50
+  },
+  {
+    "id": 136,
+    "name": "Stannis Baratheon",
+    "killedBy": "Killed by Brienne of Tarth",
+    "house": "Baratheon",
+    "importance": 3,
+    "episode_id": 50
+  },
+  {
+    "id": 137,
+    "name": "Myranda",
+    "killedBy": "Killed by Theon Greyjoy",
+    "house": null,
+    "importance": 2,
+    "episode_id": 50
+  },
+  {
+    "id": 138,
+    "name": "Meryn Trant",
+    "killedBy": "Killed by Arya Stark",
+    "house": null,
+    "importance": 2,
+    "episode_id": 50
+  },
+  {
+    "id": 139,
+    "name": "Myrcella Baratheon",
+    "killedBy": "poisoned by Ellaria Sand ",
+    "house": "Baratheon",
+    "importance": 2,
+    "episode_id": 50
+  },
+  {
+    "id": 140,
+    "name": "Jon Snow",
+    "killedBy": "Killed by Black brothers (Later Resurrected)",
+    "house": null,
+    "importance": 3,
+    "episode_id": 50
+  },
+  {
+    "id": 141,
+    "name": "Bolton officer",
+    "killedBy": "Killed by Brienne of Tarth",
+    "house": null,
+    "importance": 1,
+    "episode_id": 51
+  },
+  {
+    "id": 142,
+    "name": "Areo Hotah",
+    "killedBy": "Stabbed in the back by Tyene Sand",
+    "house": null,
+    "importance": 2,
+    "episode_id": 51
+  },
+  {
+    "id": 143,
+    "name": "Doran Martell",
+    "killedBy": "killed by Ellaria Sand",
+    "house": "Martell",
+    "importance": 2,
+    "episode_id": 51
+  },
+  {
+    "id": 144,
+    "name": "Master Caleotte",
+    "killedBy": "killed by Tyene Sand",
+    "house": null,
+    "importance": 1,
+    "episode_id": 51
+  },
+  {
+    "id": 145,
+    "name": "Trystane Martell",
+    "killedBy": "killed by Obara Sand",
+    "house": "Martell",
+    "importance": 2,
+    "episode_id": 51
+  },
+  {
+    "id": 146,
+    "name": "King's Landing boaster",
+    "killedBy": "Killed by The Mountain",
+    "house": null,
+    "importance": 1,
+    "episode_id": 52
+  },
+  {
+    "id": 147,
+    "name": "Roose Bolton",
+    "killedBy": "Killed by Ramsay Bolton",
+    "house": "Bolton",
+    "importance": 2,
+    "episode_id": 52
+  },
+  {
+    "id": 148,
+    "name": "Walda Bolton",
+    "killedBy": "Killed by Ramsay Bolton",
+    "house": "Bolton",
+    "importance": 1,
+    "episode_id": 52
+  },
+  {
+    "id": 149,
+    "name": "Newborn Bolton",
+    "killedBy": "Killed by Ramsay Bolton",
+    "house": "Bolton",
+    "importance": 1,
+    "episode_id": 52
+  },
+  {
+    "id": 150,
+    "name": "Balon Greyjoy",
+    "killedBy": "Thrown from a bridge by Euron Greyjoy",
+    "house": "Greyjoy",
+    "importance": 2,
+    "episode_id": 52
+  },
+  {
+    "id": 151,
+    "name": "Gerold Hightower",
+    "killedBy": "killed by Ned Stark",
+    "house": null,
+    "importance": 1,
+    "episode_id": 53
+  },
+  {
+    "id": 152,
+    "name": "Arthur Dayne",
+    "killedBy": "killed by Ned Stark",
+    "house": null,
+    "importance": 1,
+    "episode_id": 53
+  },
+  {
+    "id": 153,
+    "name": "Jon Umber",
+    "killedBy": "Died during the War of the Five Kings",
+    "house": null,
+    "importance": 1,
+    "episode_id": 53
+  },
+  {
+    "id": 154,
+    "name": "Bowen Marsh",
+    "killedBy": "Executed by Jon Snow",
+    "house": null,
+    "importance": 1,
+    "episode_id": 53
+  },
+  {
+    "id": 155,
+    "name": "Othell Yarwyck",
+    "killedBy": "Executed by Jon Snow",
+    "house": null,
+    "importance": 1,
+    "episode_id": 53
+  },
+  {
+    "id": 156,
+    "name": "Alliser Thorne",
+    "killedBy": "Executed by Jon Snow",
+    "house": null,
+    "importance": 2,
+    "episode_id": 53
+  },
+  {
+    "id": 157,
+    "name": "Olly",
+    "killedBy": "Executed by Jon Snow",
+    "house": null,
+    "importance": 2,
+    "episode_id": 53
+  },
+  {
+    "id": 158,
+    "name": "Iggo",
+    "killedBy": "killed by Daario Naharis",
+    "house": null,
+    "importance": 1,
+    "episode_id": 54
+  },
+  {
+    "id": 159,
+    "name": "Akho",
+    "killedBy": "killed by Daario Naharis",
+    "house": null,
+    "importance": 1,
+    "episode_id": 54
+  },
+  {
+    "id": 160,
+    "name": "Osha",
+    "killedBy": "killed by Ramsay Bolton",
+    "house": null,
+    "importance": 2,
+    "episode_id": 54
+  },
+  {
+    "id": 161,
+    "name": "Moro and 9 other Khals",
+    "killedBy": "Burned alive by Daenery",
+    "house": null,
+    "importance": 2,
+    "episode_id": 54
+  },
+  {
+    "id": 162,
+    "name": "White Walker",
+    "killedBy": "killed by Meera Reed",
+    "house": null,
+    "importance": 1,
+    "episode_id": 55
+  },
+  {
+    "id": 163,
+    "name": "Three-eyed raven",
+    "killedBy": "killed by the Night King",
+    "house": null,
+    "importance": 2,
+    "episode_id": 55
+  },
+  {
+    "id": 164,
+    "name": "Leaf",
+    "killedBy": "suicide by activating an explosive device taking out wights",
+    "house": null,
+    "importance": 1,
+    "episode_id": 55
+  },
+  {
+    "id": 165,
+    "name": "Hodor",
+    "killedBy": "Torn apart by wights",
+    "house": null,
+    "importance": 2,
+    "episode_id": 55
+  },
+  {
+    "id": 166,
+    "name": "Aerys Targaryen",
+    "killedBy": "Killed by Jaime Lannister",
+    "house": null,
+    "importance": 1,
+    "episode_id": 56
+  },
+  {
+    "id": 167,
+    "name": "Maege Mormont",
+    "killedBy": "Died during the War of the Five Kings",
+    "house": null,
+    "importance": 1,
+    "episode_id": 57
+  },
+  {
+    "id": 168,
+    "name": "Brother Ray \u0026 villagers",
+    "killedBy": "killed by rogue members of the Brotherhood Without Banners",
+    "house": null,
+    "importance": 1,
+    "episode_id": 57
+  },
+  {
+    "id": 169,
+    "name": "Steve",
+    "killedBy": "killed by Sandor Clegane",
+    "house": null,
+    "importance": 1,
+    "episode_id": 58
+  },
+  {
+    "id": 170,
+    "name": "Riddell",
+    "killedBy": "killed by Sandor Clegane",
+    "house": null,
+    "importance": 1,
+    "episode_id": 58
+  },
+  {
+    "id": 171,
+    "name": "Morgan",
+    "killedBy": "killed by Sandor Clegane",
+    "house": null,
+    "importance": 1,
+    "episode_id": 58
+  },
+  {
+    "id": 172,
+    "name": "Gatins",
+    "killedBy": "killed by Sandor Clegane",
+    "house": null,
+    "importance": 1,
+    "episode_id": 58
+  },
+  {
+    "id": 173,
+    "name": "Faith Militant",
+    "killedBy": "killed by The Mountain",
+    "house": null,
+    "importance": 1,
+    "episode_id": 58
+  },
+  {
+    "id": 174,
+    "name": "Brynden Tully",
+    "killedBy": "killed by Lannister soldier",
+    "house": "Tully",
+    "importance": 2,
+    "episode_id": 58
+  },
+  {
+    "id": 175,
+    "name": "Outlaw",
+    "killedBy": "killed by Sandor Clegane",
+    "house": null,
+    "importance": 1,
+    "episode_id": 58
+  },
+  {
+    "id": 176,
+    "name": "Lem Lemoncloak",
+    "killedBy": "killed by Sandor Clegane",
+    "house": null,
+    "importance": 1,
+    "episode_id": 58
+  },
+  {
+    "id": 177,
+    "name": "Outlaw",
+    "killedBy": "Hung by Brotherhood Without Banners",
+    "house": null,
+    "importance": 1,
+    "episode_id": 58
+  },
+  {
+    "id": 178,
+    "name": "Lady Crane",
+    "killedBy": "Killed by the Waif ",
+    "house": null,
+    "importance": 2,
+    "episode_id": 58
+  },
+  {
+    "id": 179,
+    "name": "The Waif ",
+    "killedBy": "Kill by Arya Stark",
+    "house": null,
+    "importance": 2,
+    "episode_id": 58
+  },
+  {
+    "id": 180,
+    "name": "Belicho Paenymion",
+    "killedBy": "killed by Grey Worm",
+    "house": null,
+    "importance": 1,
+    "episode_id": 59
+  },
+  {
+    "id": 181,
+    "name": "Razdal mo Eraz",
+    "killedBy": "killed by Grey Worm",
+    "house": null,
+    "importance": 2,
+    "episode_id": 59
+  },
+  {
+    "id": 182,
+    "name": "Rickon Stark",
+    "killedBy": "Shot with an Arrow fired by Ramsay Bolton",
+    "house": "Stark",
+    "importance": 2,
+    "episode_id": 59
+  },
+  {
+    "id": 183,
+    "name": "Smalljon Umber",
+    "killedBy": "killed by Tormund",
+    "house": null,
+    "importance": 2,
+    "episode_id": 59
+  },
+  {
+    "id": 184,
+    "name": "Wun Weg Wun Dar Wun",
+    "killedBy": "Shot with an Arrow fired by Ramsay Bolton",
+    "house": null,
+    "importance": 2,
+    "episode_id": 59
+  },
+  {
+    "id": 185,
+    "name": "Ramsay Bolton",
+    "killedBy": "Eaten alive by his own dogs",
+    "house": "Bolton",
+    "importance": 3,
+    "episode_id": 59
+  },
+  {
+    "id": 186,
+    "name": "Grand Maester Pycelle",
+    "killedBy": "killed by kids",
+    "house": null,
+    "importance": 2,
+    "episode_id": 60
+  },
+  {
+    "id": 187,
+    "name": "Lancel Lannister",
+    "killedBy": "killed by wildfire",
+    "house": "Lannister",
+    "importance": 2,
+    "episode_id": 60
+  },
+  {
+    "id": 188,
+    "name": "High Sparrow",
+    "killedBy": "killed by wildfire",
+    "house": null,
+    "importance": 3,
+    "episode_id": 60
+  },
+  {
+    "id": 189,
+    "name": "Margaery Tyrell",
+    "killedBy": "killed by wildfire",
+    "house": "Tyrell",
+    "importance": 3,
+    "episode_id": 60
+  },
+  {
+    "id": 190,
+    "name": "Loras Tyrell",
+    "killedBy": "killed by wildfire",
+    "house": "Tyrell",
+    "importance": 2,
+    "episode_id": 60
+  },
+  {
+    "id": 191,
+    "name": "Mace Tyrell",
+    "killedBy": "killed by wildfire",
+    "house": "Tyrell",
+    "importance": 2,
+    "episode_id": 60
+  },
+  {
+    "id": 192,
+    "name": "Kevan Lannister",
+    "killedBy": "killed by wild fire",
+    "house": "Lannister",
+    "importance": 2,
+    "episode_id": 60
+  },
+  {
+    "id": 193,
+    "name": "Tommen Baratheon",
+    "killedBy": "Suicide by jumping out a window",
+    "house": "Baratheon",
+    "importance": 3,
+    "episode_id": 60
+  },
+  {
+    "id": 194,
+    "name": "Walder Rivers",
+    "killedBy": "killed by Arya Stark",
+    "house": "Frey",
+    "importance": 1,
+    "episode_id": 60
+  },
+  {
+    "id": 195,
+    "name": "Lothar Frey",
+    "killedBy": "killed by Arya Stark",
+    "house": "Frey",
+    "importance": 1,
+    "episode_id": 60
+  },
+  {
+    "id": 196,
+    "name": "Walder Frey",
+    "killedBy": "killed by Arya Stark",
+    "house": "Frey",
+    "importance": 2,
+    "episode_id": 60
+  }
+]
