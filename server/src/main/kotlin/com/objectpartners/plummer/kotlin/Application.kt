@@ -1,5 +1,6 @@
 package com.objectpartners.plummer.kotlin
 
+import com.fasterxml.jackson.module.kotlin.KotlinModule
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.context.annotation.Bean
@@ -12,6 +13,11 @@ open class Application {
         val config = CorsConfiguration()
         config.applyPermitDefaultValues()
         return config
+    }
+
+    @Bean
+    open fun kotlinModule(): KotlinModule {
+        return KotlinModule()
     }
 }
 

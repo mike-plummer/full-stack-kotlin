@@ -6,16 +6,23 @@ import axios from 'axios';
 
 export default class CharacterEditor extends React.Component {
 
-  copy = {};
+  constructor(props) {
+    super();
+    this.state = {
+      character: props.character
+    };
+  }
 
   save = () => {
-    const { isUpdate } = this.props;
+    const {isUpdate} = this.props;
+    const {character} = this.state;
+
     let promise;
 
     if (isUpdate) {
-      promise = axios.put(`http://localhost:8080/characters/${this.copy.id}`, this.copy)
+      promise = axios.put(`http://localhost:8080/characters/${character.id}`, character)
     } else {
-      promise = axios.post('http://localhost:8080/characters', this.copy)
+      promise = axios.post('http://localhost:8080/characters', character)
     }
 
     promise
@@ -32,33 +39,53 @@ export default class CharacterEditor extends React.Component {
   };
 
   onChangeName = event => {
-    this.copy.name = event.target.value;
+    this.setState({
+      character: {
+        ...this.state.character,
+        name: event.target.value
+      }
+    });
   };
 
   onChangeDescription = event => {
-    this.copy.description = event.target.value;
+    this.setState({
+      character: {
+        ...this.state.character,
+        description: event.target.value
+      }
+    });
   };
 
   onChangeEpisode = event => {
-    this.copy.episodeId = event.target.value;
+    this.setState({
+      character: {
+        ...this.state.character,
+        episodeId: event.target.value
+      }
+    });
   };
 
   onChangeId = event => {
-    this.copy.id = event.target.value;
+    this.setState({
+      character: {
+        ...this.state.character,
+        id: event.target.value
+      }
+    });
   };
 
   onChangeType = event => {
-    this.copy.type = event.target.value;
+    this.setState({
+      character: {
+        ...this.state.character,
+        type: event.currentTarget.firstChild.value
+      }
+    });
   };
 
-  componentWillUpdate(nextProps) {
-    this.copy = {
-      ...nextProps.character
-    }
-  }
-
   render() {
-    const { isUpdate } = this.props;
+    const {isUpdate} = this.props;
+    const {character} = this.state;
 
     return (
       <Modal
@@ -67,16 +94,19 @@ export default class CharacterEditor extends React.Component {
         closeOnDimmerClick={false}
         closeOnDocumentClick={false}
       >
-        <Header content='Character Editor' />
+        <Header content='Character Editor'/>
         <Modal.Content>
           <Form>
-            <Form.Input onChange={this.onChangeName} label='Name' value={this.copy.name} />
-            <Form.Input onChange={this.onChangeDescription} label='Description' value={this.copy.description} />
-            <Form.Input onChange={this.onChangeEpisode} label='Episode #' type='number' value={this.copy.episodeId} />
-            <Form.Input onChange={this.onChangeId} label='ID' type='number' value={this.copy.id} />
-            <Form.Group onChange={this.onChangeType} label='Good/Bad' value={this.copy.type}>
-              <Form.Radio name='type' value='GOOD'>Good</Form.Radio>
-              <Form.Radio name='type' value='BAD'>Good</Form.Radio>
+            <Form.Input onChange={this.onChangeName} label='Name' value={character.name}/>
+            <Form.Input onChange={this.onChangeDescription} label='Description' value={character.description}/>
+            <Form.Input onChange={this.onChangeEpisode} label='Episode #' type='number' value={character.episodeId}/>
+            <Form.Input onChange={this.onChangeId} label='ID' type='number' value={character.id}/>
+            <Form.Group>
+              <label>Good or Bad</label>
+              <Form.Radio name='type' value='GOOD' label='Good' onChange={this.onChangeType}
+                          checked={character.type === 'GOOD'}/>
+              <Form.Radio name='type' value='BAD' label='Bad' onChange={this.onChangeType}
+                          checked={character.type === 'BAD'}/>
             </Form.Group>
           </Form>
         </Modal.Content>
@@ -85,7 +115,7 @@ export default class CharacterEditor extends React.Component {
             Cancel
           </Button>
           <Button primary onClick={this.save} inverted>
-            { isUpdate ? 'Update' : 'Create' }
+            {isUpdate ? 'Update' : 'Create'}
           </Button>
         </Modal.Actions>
       </Modal>
@@ -100,6 +130,7 @@ export default class CharacterEditor extends React.Component {
 
   static defaultProps = {
     isUpdate: false,
-    onComplete: () => {}
+    onComplete: () => {
+    }
   };
 }
