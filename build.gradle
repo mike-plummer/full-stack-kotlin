@@ -16,5 +16,6 @@ buildscript {
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
         classpath "org.jetbrains.kotlin:kotlin-frontend-plugin:0.0.21"
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springbootVersion}")
     }
 }

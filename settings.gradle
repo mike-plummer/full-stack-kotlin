@@ -1,4 +1,4 @@
-rootProject.name = 'intro-to-kotlin'
+rootProject.name = 'full-stack-kotlin'
 
 include 'common'
 include 'client'

@@ -25,7 +25,9 @@ kotlinFrontend {
         dependency('babel-runtime', '6.23.0')
         dependency('react', '15.6.1')
         dependency('react-dom', '15.6.1')
-        dependency('redux', '3.7.1')
+        dependency('prop-types', '15.6.0')
+        dependency('axios', '0.16.2')
+        dependency('compression', '1.7.1')
 
         devDependency('babel-core', '6.25.0')
         devDependency('babel-loader', '7.1.0')
