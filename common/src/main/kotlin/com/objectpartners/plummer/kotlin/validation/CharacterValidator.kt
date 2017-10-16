@@ -4,16 +4,16 @@ import com.objectpartners.plummer.kotlin.domain.Character
 import com.objectpartners.plummer.kotlin.domain.GoodOrBad
 import com.objectpartners.plummer.kotlin.domain.House
 
-class CharacterValidator(val character: Character) {
-    companion object HOUSE_CATEGORIES {
+class CharacterValidator(private val character: Character) {
+    companion object {
         val GOOD = listOf(House.STARK)
         val BAD = listOf(House.BOLTON, House.FREY, House.GREYJOY, House.LANNISTER)
     }
 
     fun validate() {
-        if (character.type == GoodOrBad.GOOD && HOUSE_CATEGORIES.BAD.contains(character.house)) {
+        if (character.type == GoodOrBad.GOOD && BAD.contains(character.house)) {
             throw Exception("Nobody from house ${character.house} can be good")
-        } else if (character.type == GoodOrBad.BAD && HOUSE_CATEGORIES.GOOD.contains(character.house)) {
+        } else if (character.type == GoodOrBad.BAD && GOOD.contains(character.house)) {
             throw Exception("Nobody from house ${character.house} can be bad")
         } else if (!(1..10).contains(character.importance)) {
             throw Exception("Importance must be between 1 and 10, inclusive")
