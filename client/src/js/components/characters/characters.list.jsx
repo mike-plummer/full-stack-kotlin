@@ -85,18 +85,16 @@ export default class ReasonsRotator extends React.Component {
           <Dimmer inverted page active={characters.length === 0}>
             <Loader inverted>Loading...</Loader>
           </Dimmer>
-          <Grid>
-            <Grid.Row>
-              <Grid.Column verticalAlign='middle'>
-                <Button icon='chevron left' onClick={this.prev} basic size='large'/>
-              </Grid.Column>
-              <Grid.Column width={8} verticalAlign='middle'>
-                <Character character={characters[index] || {}} onEdit={this.onEditClick}/>
-              </Grid.Column>
-              <Grid.Column verticalAlign='middle'>
-                <Button icon='chevron right' onClick={this.next} basic size='large'/>
-              </Grid.Column>
-            </Grid.Row>
+          <Grid columns={3}>
+            <Grid.Column verticalAlign='middle' textAlign='center'>
+              <Button icon='chevron left' onClick={this.prev} basic size='massive'/>
+            </Grid.Column>
+            <Grid.Column verticalAlign='middle'>
+              <Character character={characters[index] || {}} onEdit={this.onEditClick}/>
+            </Grid.Column>
+            <Grid.Column verticalAlign='middle'  textAlign='center'>
+              <Button icon='chevron right' onClick={this.next} basic size='massive'/>
+            </Grid.Column>
           </Grid>
           {
             editorActive &&

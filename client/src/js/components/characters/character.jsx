@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import CharacterType from './character.model';
-import {Button, Card, Header, Icon, Item} from 'semantic-ui-react';
+import {Button, Card, Grid, Header, Icon, Image, Item, Statistic} from 'semantic-ui-react';
 
 const client = require('client');
 
@@ -21,24 +21,32 @@ export default class Character extends React.Component {
     const houseImage = character.house ? sigils[character.house] : sigils['NONE'];
 
     return (
-      <Item>
-        <Item.Image size='tiny' floated='left' src={houseImage}/>
-
-        <Item.Content>
-          <Item.Header as='h1'>
+      <Card>
+        <Image centered size='medium' src={houseImage}/>
+        <Card.Content>
+          <Card.Header>
             {character.name}
             <Button icon='pencil' size='tiny' basic floated='right' onClick={onEdit}/>
-          </Item.Header>
-          <Item.Description>{character.description}</Item.Description>
-          <Item.Meta>
-            <small>{60 - character.episodeId} episodes ago</small>
-          </Item.Meta>
-          <Item.Extra>
-            <Icon color='green' name='thumbs up' disabled={isBad}/>
-            <Icon color='red' name='thumbs down' disabled={isGood}/>
-          </Item.Extra>
-        </Item.Content>
-      </Item>
+          </Card.Header>
+          <Card.Meta>
+            <span className='date'>
+              Died {60 - character.episodeId} episodes ago
+            </span>
+          </Card.Meta>
+          <Card.Description>House: {character.house}</Card.Description>
+          <Card.Description>Demise: {character.description}</Card.Description>
+        </Card.Content>
+        <Card.Content extra>
+          <Icon color='green' name='thumbs up' disabled={isBad}/>
+          <Icon color='red' name='thumbs down' disabled={isGood}/>
+          <Statistic size='mini' floated='right'>
+            <Statistic.Value>
+              <Icon name='star' color='yellow' inverted/>
+              {character.importance}
+            </Statistic.Value>
+          </Statistic>
+        </Card.Content>
+      </Card>
     );
   }
 
@@ -48,6 +56,7 @@ export default class Character extends React.Component {
   };
 
   static defaultProps = {
-    onEdit: () => {}
+    onEdit: () => {
+    }
   };
 }
