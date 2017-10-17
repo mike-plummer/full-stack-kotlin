@@ -23,11 +23,11 @@ export default class ReasonsRotator extends React.Component {
   }
 
   prev = () => this.setState({
-    index: (this.state.index === 0) ? this.state.index : this.state.index - 1
+    index: (this.state.index === 0) ? this.state.characters.length - 1 : this.state.index - 1
   });
 
   next = () => this.setState({
-    index: (this.state.index === this.state.characters.length - 1) ? this.state.index : this.state.index + 1
+    index: (this.state.index === this.state.characters.length - 1) ? 0 : this.state.index + 1
   });
 
   onCreateClick = () => {

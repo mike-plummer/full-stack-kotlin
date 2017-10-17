@@ -37,8 +37,8 @@ export default class Character extends React.Component {
           <Card.Description>Demise: {character.description}</Card.Description>
         </Card.Content>
         <Card.Content extra>
-          <Icon color='green' name='thumbs up' disabled={isBad}/>
-          <Icon color='red' name='thumbs down' disabled={isGood}/>
+          <Icon color='green' name='thumbs up' size='large' disabled={isBad}/>
+          <Icon color='red' name='thumbs down' size='large' disabled={isGood}/>
           <Statistic size='mini' floated='right'>
             <Statistic.Value>
               <Icon name='star' color='yellow' inverted/>
