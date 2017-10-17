@@ -12,7 +12,7 @@ class CharacterValidator(private val character: Character) {
             throw Exception("ID must be a positive integer")
         } else if (character.description.isBlank()) {
             throw Exception("Description must be provided")
-        }else if (character.name.isBlank()) {
+        } else if (character.name.isBlank()) {
             throw Exception("Name must be provided")
         }
     }
